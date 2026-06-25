@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schema.yext.com/config/km/settings/v1",
+  "primaryEntityType": "location",
+  "entityTypeSettings": [
+    {
+      "entityType": "location",
+      "defaultFieldEligibilityGroup": "location.default",
+      "disabled": false
+    }
+  ]
+}
