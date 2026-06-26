@@ -1,0 +1,120 @@
+{
+  "$id": "ce_location",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "location",
+  "displayName": "Location",
+  "presentationEntries": [
+    {
+      "displayName": "Identity",
+      "displayNameTranslations": [
+        { "localeCode": "is", "value": "Auðkenni" },
+        { "localeCode": "en", "value": "Identity" }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "name" },
+        { "id": "description" },
+        { "id": "logo" },
+        { "id": "slug" }
+      ]
+    },
+    {
+      "displayName": "Contact",
+      "displayNameTranslations": [
+        { "localeCode": "is", "value": "Tengiliður" },
+        { "localeCode": "en", "value": "Contact" }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "address" },
+        { "id": "mainPhone" },
+        { "id": "emails" },
+        { "id": "websiteUrl" }
+      ]
+    },
+    {
+      "displayName": "Hours & location",
+      "displayNameTranslations": [
+        { "localeCode": "is", "value": "Opnunartímar og staðsetning" },
+        { "localeCode": "en", "value": "Hours & location" }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "hours" },
+        { "id": "holidayHours" },
+        { "id": "additionalHoursText" },
+        { "id": "timezone" }
+      ]
+    },
+    {
+      "displayName": "Business details",
+      "displayNameTranslations": [
+        { "localeCode": "is", "value": "Upplýsingar um fyrirtækið" },
+        { "localeCode": "en", "value": "Business details" }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "services" },
+        { "id": "categoryIds" },
+        { "id": "keywords" },
+        { "id": "customKeywords" },
+        { "id": "yearEstablished" },
+        { "id": "paymentOptions" }
+      ]
+    },
+    {
+      "displayName": "Media",
+      "displayNameTranslations": [
+        { "localeCode": "is", "value": "Myndir" },
+        { "localeCode": "en", "value": "Media" }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "photoGallery" }
+      ]
+    },
+    {
+      "displayName": "Website fields",
+      "displayNameTranslations": [
+        { "localeCode": "is", "value": "Kerfisreitir" },
+        { "localeCode": "en", "value": "Website fields" }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "c_tagline" },
+        { "id": "c_heroEyebrow" },
+        { "id": "c_heroSubheadline" },
+        { "id": "c_heroImage" },
+
+        { "id": "c_servicesIntro" },
+        { "id": "c_serviceBodies" },
+
+        { "id": "c_statValues" },
+        { "id": "c_statLabels" },
+
+        { "id": "c_aboutHeading" },
+        { "id": "c_aboutBody" },
+        { "id": "c_aboutMission" },
+        { "id": "c_aboutImage" },
+        { "id": "c_valueTitles" },
+        { "id": "c_valueBodies" },
+        { "id": "c_aboutQuote" },
+        { "id": "c_aboutQuoteAttribution" },
+
+        { "id": "c_mapEmbedUrl" },
+
+        { "id": "c_formHeading" },
+        { "id": "c_formIntro" },
+
+        { "id": "c_ctaHeadline" },
+        { "id": "c_ctaBody" },
+
+        { "id": "c_favicon" },
+        { "id": "c_ogImage" },
+
+        { "id": "c_privacyPolicyContent" },
+        { "id": "c_cookiesContent" }
+      ]
+    }
+  ]
+}
