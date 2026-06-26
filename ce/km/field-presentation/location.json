@@ -27,9 +27,14 @@
       "entryType": "SECTION",
       "fields": [
         { "id": "address" },
+        { "id": "serviceAreaPlaces" },
+        { "id": "addressHidden" },
         { "id": "mainPhone" },
         { "id": "emails" },
-        { "id": "websiteUrl" }
+        { "id": "websiteUrl" },
+        { "id": "menuUrl" },
+        { "id": "orderUrl" },
+        { "id": "reservationUrl" }
       ]
     },
     {
