@@ -1,0 +1,13 @@
+{
+  "$id": "c_formIntro",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Form Intro",
+  "group": "NONE",
+  "localization": "LOCALE_SPECIFIC",
+  "typeId": "string",
+  "type": {
+    "stringType": {
+      "stereotype": "MULTILINE"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$id": "c_aboutQuote",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "About Quote",
+  "group": "NONE",
+  "localization": "LOCALE_SPECIFIC",
+  "typeId": "string",
+  "type": {
+    "stringType": {
+      "stereotype": "MULTILINE"
+    }
+  }
+}
