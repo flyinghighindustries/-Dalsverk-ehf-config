@@ -5,97 +5,43 @@
   "displayName": "Location",
   "presentationEntries": [
     {
-      "displayName": "Identity",
-      "displayNameTranslations": [
-        { "localeCode": "is", "value": "Auðkenni" },
-        { "localeCode": "en", "value": "Identity" }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        { "id": "name" },
-        { "id": "description" },
-        { "id": "logo" },
-        { "id": "slug" }
-      ]
-    },
-    {
-      "displayName": "Contact",
-      "displayNameTranslations": [
-        { "localeCode": "is", "value": "Tengiliður" },
-        { "localeCode": "en", "value": "Contact" }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        { "id": "address" },
-        { "id": "serviceAreaPlaces" },
-        { "id": "addressHidden" },
-        { "id": "mainPhone" },
-        { "id": "emails" },
-        { "id": "websiteUrl" },
-        { "id": "menuUrl" },
-        { "id": "orderUrl" },
-        { "id": "reservationUrl" }
-      ]
-    },
-    {
-      "displayName": "Hours & location",
-      "displayNameTranslations": [
-        { "localeCode": "is", "value": "Opnunartímar og staðsetning" },
-        { "localeCode": "en", "value": "Hours & location" }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        { "id": "hours" },
-        { "id": "additionalHoursText" },
-        { "id": "timezone" }
-      ]
-    },
-    {
-      "displayName": "Business details",
-      "displayNameTranslations": [
-        { "localeCode": "is", "value": "Upplýsingar um fyrirtækið" },
-        { "localeCode": "en", "value": "Business details" }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        { "id": "services" },
-        { "id": "categories" },
-        { "id": "keywords" },
-        { "id": "customKeywords" },
-        { "id": "yearEstablished" },
-        { "id": "paymentOptions" }
-      ]
-    },
-    {
-      "displayName": "Media",
-      "displayNameTranslations": [
-        { "localeCode": "is", "value": "Myndir" },
-        { "localeCode": "en", "value": "Media" }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        { "id": "photoGallery" }
-      ]
-    },
-    {
       "displayName": "Website fields",
       "displayNameTranslations": [
         { "localeCode": "is", "value": "Kerfisreitir" },
         { "localeCode": "en", "value": "Website fields" }
       ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Hero",
       "entryType": "SECTION",
       "fields": [
         { "id": "c_tagline" },
         { "id": "c_heroEyebrow" },
         { "id": "c_heroSubheadline" },
-        { "id": "c_heroImage" },
-
+        { "id": "c_heroImage" }
+      ]
+    },
+    {
+      "displayName": "Services",
+      "entryType": "SECTION",
+      "fields": [
         { "id": "c_servicesIntro" },
-        { "id": "c_serviceBodies" },
-
+        { "id": "c_serviceBodies" }
+      ]
+    },
+    {
+      "displayName": "Stats",
+      "entryType": "SECTION",
+      "fields": [
         { "id": "c_statValues" },
-        { "id": "c_statLabels" },
-
+        { "id": "c_statLabels" }
+      ]
+    },
+    {
+      "displayName": "About",
+      "entryType": "SECTION",
+      "fields": [
         { "id": "c_aboutHeading" },
         { "id": "c_aboutBody" },
         { "id": "c_aboutMission" },
@@ -103,21 +49,229 @@
         { "id": "c_valueTitles" },
         { "id": "c_valueBodies" },
         { "id": "c_aboutQuote" },
-        { "id": "c_aboutQuoteAttribution" },
-
+        { "id": "c_aboutQuoteAttribution" }
+      ]
+    },
+    {
+      "displayName": "Contact and form",
+      "entryType": "SECTION",
+      "fields": [
         { "id": "c_mapEmbedUrl" },
-
         { "id": "c_formHeading" },
-        { "id": "c_formIntro" },
-
+        { "id": "c_formIntro" }
+      ]
+    },
+    {
+      "displayName": "CTA banner",
+      "entryType": "SECTION",
+      "fields": [
         { "id": "c_ctaHeadline" },
-        { "id": "c_ctaBody" },
-
+        { "id": "c_ctaBody" }
+      ]
+    },
+    {
+      "displayName": "SEO and meta",
+      "entryType": "SECTION",
+      "fields": [
         { "id": "c_favicon" },
-        { "id": "c_ogImage" },
-
+        { "id": "c_ogImage" }
+      ]
+    },
+    {
+      "displayName": "Legal",
+      "entryType": "SECTION",
+      "fields": [
         { "id": "c_privacyPolicyContent" },
         { "id": "c_cookiesContent" }
+      ]
+    },
+
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "name" },
+        { "id": "categories" },
+        { "id": "address" },
+        { "id": "addressHidden" },
+        { "id": "mainPhone" },
+        { "id": "entityId" },
+        { "id": "slug" }
+      ]
+    },
+    {
+      "displayName": "Business Details",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "description" },
+        { "id": "hours" },
+        { "id": "additionalHoursText" },
+        { "id": "phoneticName" },
+        { "id": "paymentOptions" },
+        { "id": "priceRange" },
+        { "id": "geomodifier" },
+        { "id": "pickupAndDeliveryServices" },
+        { "id": "neighborhood" },
+        { "id": "what3WordsAddress" },
+        { "id": "covidMessaging" },
+        { "id": "proofOfVaccinationRequired" },
+        { "id": "fullyVaccinatedStaff" },
+        { "id": "featuredMessage" }
+      ]
+    },
+    {
+      "displayName": "Contact, Websites, and Apps",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "emails" },
+        { "id": "menuUrl" },
+        { "id": "orderUrl" },
+        { "id": "reservationUrl" },
+        { "id": "deliveryUrl" },
+        { "id": "websiteUrl" },
+        { "id": "localPhone" },
+        { "id": "alternatePhone" },
+        { "id": "tollFreePhone" },
+        { "id": "mobilePhone" },
+        { "id": "fax" },
+        { "id": "ttyPhone" },
+        { "id": "iosAppUrl" },
+        { "id": "androidAppUrl" },
+        { "id": "covid19InformationUrl" }
+      ]
+    },
+    {
+      "displayName": "Media",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "logo" },
+        { "id": "photoGallery" },
+        { "id": "videos" }
+      ]
+    },
+    {
+      "displayName": "Social Media",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "twitterHandle" },
+        { "id": "facebookPageUrl" },
+        { "id": "instagramHandle" },
+        { "id": "linkedInUrl" }
+      ]
+    },
+    {
+      "displayName": "Enhanced Content Lists",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "productLists" },
+        { "id": "bios" }
+      ]
+    },
+    {
+      "displayName": "Additional Attributes",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "yearEstablished" },
+        { "id": "products" },
+        { "id": "services" },
+        { "id": "specialities" },
+        { "id": "associations" },
+        { "id": "brands" },
+        { "id": "languages" },
+        { "id": "keywords" }
+      ]
+    },
+    {
+      "displayName": "Landing Pages",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "landingPageUrl" }
+      ]
+    },
+
+    {
+      "displayName": "Additional Hours",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Accessibility",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "onlineServiceHours" },
+        { "id": "seniorHours" },
+        { "id": "accessHours" }
+      ]
+    },
+    {
+      "displayName": "Order Pickup",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "pickupHours" },
+        { "id": "driveThroughHours" }
+      ]
+    },
+    {
+      "displayName": "Food and Drink",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "kitchenHours" },
+        { "id": "brunchHours" },
+        { "id": "happyHours" },
+        { "id": "dineInHours" }
+      ]
+    },
+    {
+      "displayName": "Takeout and Delivery",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "takeoutHours" },
+        { "id": "deliveryHours" }
+      ]
+    },
+
+    {
+      "displayName": "Publisher Specific",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Google Business Profile Fields",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "googleWebsiteOverride" }
+      ]
+    },
+    {
+      "displayName": "Apple Fields",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "appleCompanyId" },
+        { "id": "appleCompanyIdDqe" },
+        { "id": "appleBusinessId" },
+        { "id": "appleBusinessIdDqe" },
+        { "id": "appleBusinessDescription" },
+        { "id": "appleCoverPhoto" },
+        { "id": "appleActionLinks" }
+      ]
+    },
+
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        { "id": "closed" },
+        { "id": "folder" },
+        { "id": "labels" },
+        { "id": "isoRegionCode" },
+        { "id": "deliverListingsWithoutGeocode" },
+        { "id": "timezone" }
       ]
     }
   ]
