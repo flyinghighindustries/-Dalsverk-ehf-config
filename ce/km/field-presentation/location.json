@@ -41,7 +41,6 @@
       "entryType": "SECTION",
       "fields": [
         { "id": "hours" },
-        { "id": "holidayHours" },
         { "id": "additionalHoursText" },
         { "id": "timezone" }
       ]
@@ -55,7 +54,7 @@
       "entryType": "SECTION",
       "fields": [
         { "id": "services" },
-        { "id": "categoryIds" },
+        { "id": "categories" },
         { "id": "keywords" },
         { "id": "customKeywords" },
         { "id": "yearEstablished" },
