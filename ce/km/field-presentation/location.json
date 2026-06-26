@@ -16,25 +16,33 @@
         { "id": "c_heroEyebrow" },
         { "id": "c_heroSubheadline" },
         { "id": "c_heroImage" },
+
         { "id": "c_servicesIntro" },
         { "id": "c_serviceBodies" },
+
         { "id": "c_statValues" },
         { "id": "c_statLabels" },
+
         { "id": "c_aboutHeading" },
         { "id": "c_aboutBody" },
-        { "id": "c_aboutImage" },
         { "id": "c_aboutMission" },
-        { "id": "c_aboutQuote" },
-        { "id": "c_aboutQuoteAttribution" },
+        { "id": "c_aboutImage" },
         { "id": "c_valueTitles" },
         { "id": "c_valueBodies" },
+        { "id": "c_aboutQuote" },
+        { "id": "c_aboutQuoteAttribution" },
+
         { "id": "c_mapEmbedUrl" },
+
         { "id": "c_formHeading" },
         { "id": "c_formIntro" },
+
         { "id": "c_ctaHeadline" },
         { "id": "c_ctaBody" },
+
         { "id": "c_favicon" },
         { "id": "c_ogImage" },
+
         { "id": "c_privacyPolicyContent" },
         { "id": "c_cookiesContent" }
       ]

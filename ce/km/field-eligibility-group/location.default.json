@@ -8,25 +8,33 @@
     "c_heroEyebrow",
     "c_heroSubheadline",
     "c_heroImage",
+
     "c_servicesIntro",
     "c_serviceBodies",
+
     "c_statValues",
     "c_statLabels",
+
     "c_aboutHeading",
     "c_aboutBody",
-    "c_aboutImage",
     "c_aboutMission",
-    "c_aboutQuote",
-    "c_aboutQuoteAttribution",
+    "c_aboutImage",
     "c_valueTitles",
     "c_valueBodies",
+    "c_aboutQuote",
+    "c_aboutQuoteAttribution",
+
     "c_mapEmbedUrl",
+
     "c_formHeading",
     "c_formIntro",
+
     "c_ctaHeadline",
     "c_ctaBody",
+
     "c_favicon",
     "c_ogImage",
+
     "c_privacyPolicyContent",
     "c_cookiesContent"
   ]
